@@ -14,8 +14,37 @@
         <input type="text" name="NameUser"><br>
         Senha: <br>
         <input type="password" name="PassUser"><br>
-        <input type="submit" value="Logar">
+        <input type="button" value="Logar">
+    </form>
+    <form action>
+        <!--Ao usar o msm name para os inputs ele considera que podemos marcar apenas 1, como no exemplo abaixo-->
+        <h2>Cadastre-se</h2>
+        Login: <br>
+        <input type="text" name="NameUser"><br><br>
+        Sexo: <br>
+        <input type="radio" name="sexo" value="m">
+        Masculino <br>
+        <input type="radio" name="sexo" value="f">
+        Feminino <br><br>
 
+        Interesses <br>
+        <input type="checkbox" name="Interesses">Cursos <br>
+        <input type="checkbox" name="Interesses">futebol <br>
+        <input type="checkbox" name="Interesses">Moda<br><br>
+
+        Estado<br>
+        <select name="Estado">
+            <option value="sp">SP</option>
+            <option value="rj">RJ</option>
+            <option value="pe">PE</option>
+            <option value="mg">MG</option>
+            <option value="ac">AC</option>
+        </select><br><br>
+
+
+        Observações: <br>
+        <textarea name="" id="" cols="30" rows="10"></textarea> <br>
+        <input type="submit" value="Cadastrar">
     </form>
 </body>
 
